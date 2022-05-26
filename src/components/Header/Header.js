@@ -1,20 +1,21 @@
 import {
-    HeaderWrapper, HeaderList, HeaderListItem, HeaderLink
+    HeaderWrapper,
+    HeaderList,
+    HeaderListItem,
+    Logo
 } from "./styles";
-
-
-
+import { Link } from "react-router-dom";
 
 function Header({ title }) {
     return (
         <HeaderWrapper>
-            <h1>Txai</h1>
+            <Logo />
             <HeaderList>
                 <HeaderListItem>
-                    <HeaderLink href="#">Projecten</HeaderLink>
+                    <Link to="/">Projecten</Link>
                 </HeaderListItem>
                 <HeaderListItem>
-                    <HeaderLink href="#">Over Mij</HeaderLink>
+                    <Link to="/aboutme">Over Mij</Link>
                 </HeaderListItem>
             </HeaderList>
         </HeaderWrapper>

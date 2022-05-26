@@ -15,8 +15,6 @@ export const ContentList = styled.ul`
   padding: 0;
   width: 100%;
 
-
-
   @media (min-width: 768px) {
     flex-direction: row;
     flex-wrap: wrap;

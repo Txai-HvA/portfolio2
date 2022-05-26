@@ -1,18 +1,36 @@
-export const primaryBackgroundColor = "#fff";
 
-export const primaryButtonColor = "#a5e65a";
-export const primaryButtonTextColor = "#5a19a5";
-export const primaryButtonHoverColor = "#32d9cb";
-export const primaryButtonHoverTextColor = "#fff";
+import logoAsset from "./Header/assets/logo.svg"
+import logoAssetSmall from "./Header/assets/logo_small.svg"
 
-export const secondaryButtonColor = "blue";
-export const secondaryButtonTextColor = "pink";
-export const secondaryButtonHoverColor = "grey";
-export const secondaryButtonTextHoverColor = "pink";
+const green = "#a1cd49";
+const yellow = "#f4ae1a";
+const blue = "#518bc9";
+const white = "#fff";
+const grey = "#ededed";
+const black = "#000";
 
-export const imgLinkTextColor = "#fff";
-export const imgLinkTextHoverColor = "#5a19a5";
-export const imgLinkHoverColor = "#a5e65a";
+export const primaryBackgroundColor = white;
+export const secondaryBackgroundColor = grey;
+export const articleTextColor = black;
+export const headingColor = blue;
 
-export const headerBackgroundColor = "#32d9cb";
+export const primaryButtonColor = green;
+export const primaryButtonTextColor = white;
+export const primaryButtonHoverColor = yellow;
+export const primaryButtonHoverTextColor = white;
+
+export const secondaryButtonColor = white
+export const secondaryButtonBorderColor = blue;
+export const secondaryButtonTextColor = blue;
+export const secondaryButtonBorderHoverColor = yellow;
+export const secondaryButtonTextHoverColor = yellow;
+
+export const imgLinkTextColor = white;
+export const imgLinkTextHoverColor = white;
+export const imgLinkHoverColor = yellow;
+
+export const headerBackgroundColor = white;
 export const headerHeight = "70px";
+export const logoURL = logoAsset;
+export const logoSmallURL = logoAssetSmall;
+
