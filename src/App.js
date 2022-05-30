@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header/Header.js';
 import Projects from './components/Projects/Projects.js';
 import Project from './components/Project/Project.js';
+import AboutMe from './components/AboutMe/AboutMe.js'
 import {
   BrowserRouter as Router,
   Routes,
@@ -22,6 +23,9 @@ function App() {
           <Route path={projectData[2].url} element={<Project project={projectData[2]} />}></Route>
           <Route path={projectData[3].url} element={<Project project={projectData[3]} />}></Route>
           <Route path={projectData[4].url} element={<Project project={projectData[4]} />}></Route>
+          <Route path={"/aboutme"} element={<AboutMe />}></Route>
+
+
         </Routes>
       </div>
     </Router>
